@@ -13,3 +13,5 @@ function toggleTheme() {
       document.documentElement.setAttribute('data-theme', 'light');
     }
   }
+
+  /* the theme transition was done with the help of chat GPT and this https://dev.to/whitep4nth3r/the-best-lightdark-mode-theme-toggle-in-javascript-368f site*/
