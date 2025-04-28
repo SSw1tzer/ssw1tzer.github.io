@@ -1,0 +1,50 @@
+<!DOCTYPE html> 
+<html> 
+    <head>        
+    <link rel="stylesheet" href="styles.css"/>
+        <title> Charity Profile Page </title>
+    </head>
+    <body>
+        <header>  
+            <nav>  
+                <ul>
+                <li>  
+                <a href="index.html"> Home </a>  
+                </li>  
+                <li>  
+                <a href="charities.html"> Charities </a>  
+                </li>  
+                <li>  
+                <a href="oppurtunities.html"> More Oppurtunities </a>  
+                </li> 
+                <li>  
+                <a href="contact.html"> Contact </a>  
+                </li>    
+                </ul>  
+                </nav>
+        </header>  
+        <h1 class="home-header"> National Animal Welfare Trust </h1>
+        <img src="https://tse1.mm.bing.net/th/id/OIP.8KrLB8RdOEmQeBc10Em35gHaHn?pid=Api" alt="National Animal Welfare Trust" style="float: left;">
+        <p class="home-para"> 
+            National Animal Welfare Trust is a rescue and rehoming charity with five rehoming centres and five charity shops operating across the south of England. We are working towards a world where every pet thrives in a loving home.
+        </p>
+        <form class = "volunteerForm" id="volunteerForm">
+            <fieldset>
+            <legend class="contact-legend">Contact Info:</legend>
+                <label for="name" class="contact-name">Name:</label><br>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email" class="contact-email">Email:</label><br>
+                <input type="text" id="email" name="email"><br><br>
+                <label for="number" class="contact-number">Number:</label><br>
+                <input type="text" id="number" name="number"><br><br>
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+        <button onclick="disForm()">
+            Volunteer Now
+        </button>
+
+        <script src="charity_profile.js"></script>
+    </body> <!-- more information and content will be on this page this page will require css and javascript to accurately function. 
+    Edit during css additions: this page will be added with javascript addition as will its css styling this page is currently not possible to access normally-->
+</html>
